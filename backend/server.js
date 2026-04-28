@@ -19,6 +19,7 @@ app.use(cors({
   origin: [
     "https://hackindia-spark-7-north-region-2nkl.vercel.app/"
   ],
+    methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 }));
 
